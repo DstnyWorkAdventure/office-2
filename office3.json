@@ -5542,8 +5542,22 @@
          "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":2442,
-         "source":"japan c.tsx"
+         "image":"t\/RPGMakerVXAce\/GK_JO_B.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"japan c",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tileoffset":
+            {
+             "x":6,
+             "y":9
+            },
+         "tilewidth":32
         }, 
         {
          "firstgid":2698,
