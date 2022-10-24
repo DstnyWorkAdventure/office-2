@@ -1,0 +1,16 @@
+# Remove all Aseprite and .ini files
+*.aseprite
+*.ini
+
+# Showing limited options as we finalize WIPs
+*_ Development
+
+# Ignore folders for Work-In-Progress categories for the moment
+/Animals/
+
+# Packs released on other sites (namely OpenGameArt.org)
+/_ Packs/
+/_ Discarded Drafts/
+
+# Ignore my template folders
+*Credits Template.txt
