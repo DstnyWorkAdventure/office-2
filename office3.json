@@ -5511,12 +5511,35 @@
          "source":"Floral Carpet.tsx"
         }, 
         {
+         "columns":35,
          "firstgid":1626,
-         "source":"Floral Carpet 2.tsx"
+         "image":"t\/LPC-main\/Structure\/Floor\/Floral Carpet B.png",
+         "imageheight":512,
+         "imagewidth":1120,
+         "margin":0,
+         "name":"Floral Carpet 2",
+         "spacing":0,
+         "tilecount":560,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
+         "columns":16,
          "firstgid":2186,
-         "source":"interior.tsx"
+         "image":"t\/interior.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"interior",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tileoffset":
+            {
+             "x":16,
+             "y":16
+            },
+         "tilewidth":32
         }, 
         {
          "firstgid":2442,
@@ -5527,8 +5550,50 @@
          "source":"japan 1.tsx"
         }, 
         {
+         "columns":36,
          "firstgid":2954,
-         "source":"bar2.tsx"
+         "image":"t\/GuttyKreum_JapaneseBar\/TilemapDay.png",
+         "imageheight":1344,
+         "imagewidth":1152,
+         "margin":0,
+         "name":"bar2",
+         "spacing":0,
+         "tilecount":1512,
+         "tileheight":32,
+         "tileoffset":
+            {
+             "x":5,
+             "y":0
+            },
+         "tiles":[
+                {
+                 "id":434,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":435,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }, 
+                {
+                 "id":436,
+                 "properties":[
+                        {
+                         "name":"collide",
+                         "type":"bool",
+                         "value":false
+                        }]
+                }],
+         "tilewidth":32
         }, 
         {
          "columns":78,
