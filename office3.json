@@ -32,6 +32,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/play.workadventure.escaux.ga\/static\/hello.html"
+                }, 
+                {
+                 "name":"openWebsiteAllowApi",
+                 "type":"bool",
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
