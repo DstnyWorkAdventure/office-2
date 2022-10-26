@@ -60,7 +60,29 @@
          "draworder":"topdown",
          "id":6,
          "name":"floorLayer",
-         "objects":[],
+         "objects":[
+                {
+                 "height":27.3333333333333,
+                 "id":22,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/play.workadventure.escaux.ga\/static\/setStatus?status=Office"
+                        }, 
+                        {
+                         "name":"openWebsiteAllowApi",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":39.3333333333335,
+                 "x":1452.66666666667,
+                 "y":1774
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -104,8 +126,14 @@
          "y":0
         }],
  "nextlayerid":14,
- "nextobjectid":16,
+ "nextobjectid":23,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"script",
+         "type":"string",
+         "value":"https:\/\/play.workadventure.escaux.ga\/static\/wa.js"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.4.3",
  "tileheight":32,
