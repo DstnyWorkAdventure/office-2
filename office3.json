@@ -132,7 +132,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"https:\/\/play.workadventure.escaux.ga\/static\/wa.js"
+         "value":"https:\/\/play.workadventure.escaux.ga\/ConnectMeWAPlugin.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.4.3",
