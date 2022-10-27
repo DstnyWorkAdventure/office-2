@@ -62,26 +62,92 @@
          "name":"floorLayer",
          "objects":[
                 {
-                 "height":27.3333333333333,
-                 "id":22,
-                 "name":"",
+                 "height":257.333333333333,
+                 "id":23,
+                 "name":"GreenRoom",
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"adminMood",
                          "type":"string",
-                         "value":"https:\/\/play.workadventure.escaux.ga\/static\/setStatus?status=Office"
+                         "value":"In Green Room"
                         }, 
                         {
-                         "name":"openWebsiteAllowApi",
+                         "name":"focusable",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"GreenRoom"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":1
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"Area",
                  "visible":true,
-                 "width":39.3333333333335,
-                 "x":1452.66666666667,
-                 "y":1774
+                 "width":168,
+                 "x":1963.33333333333,
+                 "y":1701.33333333333
+                }, 
+                {
+                 "height":31.7621649091602,
+                 "id":24,
+                 "name":"AdminOOF",
+                 "properties":[
+                        {
+                         "name":"adminStatus",
+                         "type":"string",
+                         "value":"Office"
+                        }],
+                 "rotation":0,
+                 "type":"Area",
+                 "visible":true,
+                 "width":92.7455215347477,
+                 "x":1471.2234785923,
+                 "y":1541.10024139245
+                }, 
+                {
+                 "height":256.638292466014,
+                 "id":29,
+                 "name":"AdminOffice2",
+                 "properties":[
+                        {
+                         "name":"adminStatus",
+                         "type":"string",
+                         "value":"Office"
+                        }],
+                 "rotation":0,
+                 "type":"Area",
+                 "visible":true,
+                 "width":172.786177105832,
+                 "x":1965.44276457883,
+                 "y":1701.18155253462
+                }, 
+                {
+                 "height":119.426,
+                 "id":30,
+                 "name":"AdminOffice1",
+                 "properties":[
+                        {
+                         "name":"adminStatus",
+                         "type":"string",
+                         "value":"Office"
+                        }],
+                 "rotation":0,
+                 "type":"Area",
+                 "visible":true,
+                 "width":510.736,
+                 "x":1412.78090102909,
+                 "y":1762.16477918943
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -126,7 +192,7 @@
          "y":0
         }],
  "nextlayerid":14,
- "nextobjectid":23,
+ "nextobjectid":31,
  "orientation":"orthogonal",
  "properties":[
         {
