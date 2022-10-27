@@ -92,7 +92,7 @@
                          "value":1
                         }],
                  "rotation":0,
-                 "type":"Area",
+                 "type":"area",
                  "visible":true,
                  "width":168,
                  "x":1963.33333333333,
@@ -109,7 +109,7 @@
                          "value":"Office"
                         }],
                  "rotation":0,
-                 "type":"Area",
+                 "type":"area",
                  "visible":true,
                  "width":92.7455215347477,
                  "x":1471.2234785923,
@@ -126,7 +126,7 @@
                          "value":"Office"
                         }],
                  "rotation":0,
-                 "type":"Area",
+                 "type":"area",
                  "visible":true,
                  "width":172.786177105832,
                  "x":1965.44276457883,
@@ -143,7 +143,7 @@
                          "value":"Office"
                         }],
                  "rotation":0,
-                 "type":"Area",
+                 "type":"area",
                  "visible":true,
                  "width":510.736,
                  "x":1412.78090102909,
