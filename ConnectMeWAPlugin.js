@@ -10,7 +10,6 @@ WA.onInit().then(() => {
     console.log('Current player name: ', WA.player.name);
 });
 
-const map = await WA.room.getTiledMap();
 
 WA.player.onPlayerMove(console.log);
 
