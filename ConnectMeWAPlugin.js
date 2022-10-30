@@ -11,7 +11,7 @@ WA.onInit().then(() => {
 });
 
 
-lastDirection = "nothing";
+let lastDirection = "nothing";
 
 function onMove(move){
   console.log(move);
