@@ -33,7 +33,7 @@ const myCollide = WA.room.area.onEnter("Collide").subscribe(() => {
   WA.controls.disablePlayerControls()
   setTimeout(() => {
     console.log("Delayed for 400ms");
-  }, 400)
+  }, 400);
   WA.player.getPosition().then((position) => {
   console.log(position)
   if (WA.player.state.lastDirection === "down"){
