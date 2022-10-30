@@ -30,6 +30,10 @@ const myAdminOffice1 = WA.room.area.onEnter("AdminOffice1").subscribe(() => {
 
 const myCollide = WA.room.area.onEnter("Collide").subscribe(() => {
   console.log("collide");
+  WA.controls.disablePlayerControls()
+  setTimeout(() => {
+    console.log("Delayed for 400ms");
+  }, 400)
   WA.player.getPosition().then((position) => {
   console.log(position)
   if (WA.player.state.lastDirection === "down"){
