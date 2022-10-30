@@ -31,16 +31,16 @@ const myAdminOffice1 = WA.room.area.onEnter("AdminOffice1").subscribe(() => {
 const myCollide = WA.room.area.onEnter("Collide").subscribe(() => {
   console.log("collide");
   let position = WA.player.getPosition();
-  if (WA.plater.state.lastDirection === "down"){
+  if (WA.player.state.lastDirection === "down"){
     WA.player.moveTo(position.x, position.y-2, 10);
   }
-  if (WA.plater.state.lastDirection === "up"){
+  if (WA.player.state.lastDirection === "up"){
     WA.player.moveTo(position.x, position.y+2, 10);
   }
-  if (WA.plater.state.lastDirection === "left"){
+  if (WA.player.state.lastDirection === "left"){
     WA.player.moveTo(position.x+2, position.y-2, 10);
   }
-  if (WA.plater.state.lastDirection === "right"){
+  if (WA.player.state.lastDirection === "right"){
     WA.player.moveTo(position.x-2, position.y-2, 10);
   }
 });
