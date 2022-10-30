@@ -30,7 +30,7 @@ const myAdminOffice1 = WA.room.area.onEnter("AdminOffice1").subscribe(() => {
 
 const myCollide = WA.room.area.onEnter("Collide").subscribe(() => {
   console.log("collide");
-  position = WA.player.getPosition();
+  let position = WA.player.getPosition();
   if (WA.plater.state.lastDirection === "down"){
     WA.player.moveTo(position.x, position.y-2, 10);
   }
