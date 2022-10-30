@@ -159,6 +159,11 @@
                          "name":"collidable",
                          "type":"bool",
                          "value":true
+                        }, 
+                        {
+                         "name":"collidableArea",
+                         "type":"bool",
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"area",
@@ -166,6 +171,23 @@
                  "width":110.423127200622,
                  "x":1302.48827145454,
                  "y":1582.2057883934
+                }, 
+                {
+                 "height":48.6313229930367,
+                 "id":34,
+                 "name":"Desk",
+                 "properties":[
+                        {
+                         "name":"collidableArea",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":94.6837121909884,
+                 "x":1392.62424934606,
+                 "y":1796.78001694728
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -198,7 +220,7 @@
          "y":0
         }],
  "nextlayerid":20,
- "nextobjectid":33,
+ "nextobjectid":35,
  "orientation":"orthogonal",
  "properties":[
         {
