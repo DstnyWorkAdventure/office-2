@@ -11,7 +11,18 @@ WA.onInit().then(() => {
 });
 
 
-WA.player.onPlayerMove(console.log);
+lastDirection = "nothing"
+
+function onMove(move){
+  console.log(move);
+  lastDirection  = move.direction;
+}
+
+WA.player.onPlayerMove(onMove);
+
+
+
+
 
 const myAdminOffice1 = WA.room.area.onEnter("AdminOffice1").subscribe(() => {
   const command = {action: "setStatus", body: "available"};
@@ -20,6 +31,10 @@ const myAdminOffice1 = WA.room.area.onEnter("AdminOffice1").subscribe(() => {
 
 const myCollide = WA.room.area.onEnter("Collide").subscribe(() => {
   console.log("collide");
+  position = WA.plater.getPosition();
+  if (lastDirection === "down"){
+    WA.player.moveTo(position.x, position.y-2, 10);
+  }
 });
 
 
