@@ -10,12 +10,11 @@ WA.onInit().then(() => {
     console.log('Current player name: ', WA.player.name);
 });
 
-
-let lastDirection = "nothing";
+WA.player.state.lastDirection = "nothing"
 
 function onMove(move){
   console.log(move);
-  lastDirection  = move.direction;
+  WA.player.state.lastDirection  = move.direction;
 }
 
 WA.player.onPlayerMove(onMove);
@@ -32,16 +31,16 @@ const myAdminOffice1 = WA.room.area.onEnter("AdminOffice1").subscribe(() => {
 const myCollide = WA.room.area.onEnter("Collide").subscribe(() => {
   console.log("collide");
   position = WA.plater.getPosition();
-  if (lastDirection === "down"){
+  if (WA.plater.state.lastDirection === "down"){
     WA.player.moveTo(position.x, position.y-2, 10);
   }
-  if (lastDirection === "up"){
+  if (WA.plater.state.lastDirection === "up"){
     WA.player.moveTo(position.x, position.y+2, 10);
   }
-  if (lastDirection === "left"){
+  if (WA.plater.state.lastDirection === "left"){
     WA.player.moveTo(position.x+2, position.y-2, 10);
   }
-  if (lastDirection === "right"){
+  if (WA.plater.state.lastDirection === "right"){
     WA.player.moveTo(position.x-2, position.y-2, 10);
   }
 });
