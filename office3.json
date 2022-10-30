@@ -204,7 +204,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"ConnectMeWAPlugin.js"
+         "value":"https:\/\/play.WorkAdventure.escaux.go\/ConnectMeWAPlugin.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.4.3",
