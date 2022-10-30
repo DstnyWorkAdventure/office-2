@@ -16,7 +16,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -28,7 +28,7 @@
          "name":"Floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -40,7 +40,7 @@
          "name":"aboveFloor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -52,8 +52,53 @@
          "name":"furniture",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":20,
+         "name":"objects",
+         "objects":[
+                {
+                 "gid":4661,
+                 "height":32,
+                 "id":35,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":1402.04516818333,
+                 "y":1823.4641712412
+                }, 
+                {
+                 "gid":4661,
+                 "height":32,
+                 "id":36,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":1446.99230004053,
+                 "y":1825.67468592271
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "id":21,
+         "image":"object1.png",
+         "name":"objects",
+         "opacity":1,
+         "type":"imagelayer",
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -173,7 +218,7 @@
                  "y":1582.2057883934
                 }, 
                 {
-                 "height":48.6313229930367,
+                 "height":47.526065652286,
                  "id":34,
                  "name":"Desk",
                  "properties":[
@@ -186,12 +231,12 @@
                  "type":"area",
                  "visible":true,
                  "width":94.6837121909884,
-                 "x":1392.62424934606,
-                 "y":1796.78001694728
+                 "x":1392.25583023247,
+                 "y":1808.56942858195
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -202,7 +247,7 @@
          "name":"aboveFuniture",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -214,13 +259,13 @@
          "name":"floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
         }],
- "nextlayerid":20,
- "nextobjectid":35,
+ "nextlayerid":22,
+ "nextobjectid":37,
  "orientation":"orthogonal",
  "properties":[
         {
