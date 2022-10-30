@@ -35,6 +35,15 @@ const myCollide = WA.room.area.onEnter("Collide").subscribe(() => {
   if (lastDirection === "down"){
     WA.player.moveTo(position.x, position.y-2, 10);
   }
+  if (lastDirection === "up"){
+    WA.player.moveTo(position.x, position.y+2, 10);
+  }
+  if (lastDirection === "left"){
+    WA.player.moveTo(position.x+2, position.y-2, 10);
+  }
+  if (lastDirection === "right"){
+    WA.player.moveTo(position.x-2, position.y-2, 10);
+  }
 });
 
 
