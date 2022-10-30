@@ -18,6 +18,11 @@ const myAdminOffice1 = WA.room.area.onEnter("AdminOffice1").subscribe(() => {
   parent.postMessage(JSON.stringify(command), "*");
 });
 
+const myCollide = WA.room.area.onEnter("Collide").subscribe(() => {
+  console.log("collide");
+});
+
+
 WA.room.area.onLeave("AdminOffice1").subscribe(() => {
 
   const command = {action: "setStatus", body: "out_of_office"};                                                                                                                                                        
