@@ -494,7 +494,7 @@
                 {
                  "height":0,
                  "id":62,
-                 "name":"",
+                 "name":"balcon",
                  "polygon":[
                         {
                          "x":0,
@@ -583,7 +583,7 @@
                          "value":true
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":0,
                  "x":1409.29693264467,
