@@ -261,7 +261,7 @@
                 {
                  "height":79.7945737011939,
                  "id":41,
-                 "name":"Desk",
+                 "name":"Desk-008",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -278,7 +278,7 @@
                 {
                  "height":58.0384967760208,
                  "id":42,
-                 "name":"Desk",
+                 "name":"Desk-007",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -295,7 +295,7 @@
                 {
                  "height":76.5677263310743,
                  "id":43,
-                 "name":"Desk",
+                 "name":"Desk-005",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -312,7 +312,7 @@
                 {
                  "height":76.5677263310743,
                  "id":47,
-                 "name":"Desk",
+                 "name":"Desk-004",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -346,7 +346,7 @@
                 {
                  "height":70.1140315908358,
                  "id":49,
-                 "name":"Desk",
+                 "name":"Desk-003",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -363,7 +363,7 @@
                 {
                  "height":70.1140315908358,
                  "id":50,
-                 "name":"Desk",
+                 "name":"Desk-002",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -380,7 +380,7 @@
                 {
                  "height":73.340878960955,
                  "id":51,
-                 "name":"Desk",
+                 "name":"Desk-001",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -788,7 +788,7 @@
                 {
                  "height":145.964839559397,
                  "id":86,
-                 "name":"Wall",
+                 "name":"Wall-008",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -805,7 +805,7 @@
                 {
                  "height":155.451704016021,
                  "id":87,
-                 "name":"Wall",
+                 "name":"Wall-007",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -822,7 +822,7 @@
                 {
                  "height":159.668,
                  "id":88,
-                 "name":"Wall",
+                 "name":"Wall-006",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -839,7 +839,7 @@
                 {
                  "height":156.505778012017,
                  "id":89,
-                 "name":"Wall",
+                 "name":"Wall-005",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -856,7 +856,7 @@
                 {
                  "height":142.802816064088,
                  "id":90,
-                 "name":"Wall",
+                 "name":"Wall-004",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -873,7 +873,7 @@
                 {
                  "height":154.397630020027,
                  "id":91,
-                 "name":"Wall",
+                 "name":"Wall-003",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -890,7 +890,7 @@
                 {
                  "height":159.668,
                  "id":92,
-                 "name":"Wall",
+                 "name":"Wall-002",
                  "properties":[
                         {
                          "name":"collidableArea",
@@ -907,7 +907,7 @@
                 {
                  "height":134.370224096131,
                  "id":93,
-                 "name":"Wall",
+                 "name":"Wall-001",
                  "properties":[
                         {
                          "name":"collidableArea",
