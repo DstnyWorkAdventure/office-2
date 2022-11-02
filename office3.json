@@ -208,7 +208,7 @@
                  "y":1582.2057883934
                 }, 
                 {
-                 "height":36.6708193622808,
+                 "height":18.5652352189607,
                  "id":34,
                  "name":"Desk",
                  "properties":[
@@ -220,9 +220,9 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":88.3158539486737,
-                 "x":1398.92630860106,
-                 "y":1802.18123017198
+                 "width":80.6924500988548,
+                 "x":1405.59678696966,
+                 "y":1809.8046340218
                 }, 
                 {
                  "height":122.724,
@@ -616,7 +616,7 @@
                  "y":1994.05668636555
                 }, 
                 {
-                 "height":30.0167,
+                 "height":18.5815942252714,
                  "id":76,
                  "name":"Wall",
                  "properties":[
@@ -866,7 +866,7 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":30.1474,
+                 "width":19.6652197064991,
                  "x":1655.63358365131,
                  "y":1743.71401307052
                 }, 
@@ -946,7 +946,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"https:\/\/play.WorkAdventure.escaux.ga\/ConnectMeWAPlugin.js"
+         "value":"https:\/\/play.workadventure.escaux.ga\/ConnectMeWAPlugin.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.4.3",
