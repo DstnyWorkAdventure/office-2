@@ -16,7 +16,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -28,7 +28,7 @@
          "name":"Floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -40,7 +40,7 @@
          "name":"aboveFloor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -52,7 +52,7 @@
          "name":"furniture",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -73,10 +73,34 @@
          "draworder":"topdown",
          "id":20,
          "name":"objects",
-         "objects":[],
+         "objects":[
+                {
+                 "gid":27807,
+                 "height":32,
+                 "id":201,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":1391.30912342439,
+                 "y":2099.41746228619
+                }, 
+                {
+                 "gid":28027,
+                 "height":32,
+                 "id":202,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":1434.57544203756,
+                 "y":2089.32198794312
+                }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -1075,10 +1099,22 @@
                  "width":30.1474,
                  "x":2103.61503194898,
                  "y":1742.65993907452
+                }, 
+                {
+                 "gid":28061,
+                 "height":32,
+                 "id":203,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":1546.49098618362,
+                 "y":2088.74510369494
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -1089,13 +1125,13 @@
          "name":"aboveFloorLayer",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
         }],
  "nextlayerid":23,
- "nextobjectid":201,
+ "nextobjectid":208,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -4062,6 +4098,10 @@
          "tilecount":10000,
          "tileheight":32,
          "tilewidth":32
+        }, 
+        {
+         "firstgid":27667,
+         "source":"stuff-1.tsx"
         }],
  "tilewidth":32,
  "type":"map",
