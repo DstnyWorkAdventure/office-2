@@ -1499,7 +1499,7 @@
                 {
                  "height":156.309569195578,
                  "id":256,
-                 "name":"",
+                 "name":"Red Room",
                  "properties":[
                         {
                          "name":"adminMood",
@@ -1532,7 +1532,7 @@
                          "value":1
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":162.663616723853,
                  "x":2198.50044478333,
