@@ -1182,50 +1182,6 @@
                 }, 
                 {
                  "class":"area",
-                 "height":33.6946983885214,
-                 "id":31,
-                 "name":"Collide",
-                 "properties":[
-                        {
-                         "name":"collidable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"collidableArea",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":false
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":110.423127200622,
-                 "x":1302.48827145454,
-                 "y":1582.2057883934
-                }, 
-                {
-                 "class":"area",
-                 "height":18.5652352189607,
-                 "id":34,
-                 "name":"Desk",
-                 "properties":[
-                        {
-                         "name":"collidableArea",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":80.6924500988548,
-                 "x":1405.59678696966,
-                 "y":1809.8046340218
-                }, 
-                {
-                 "class":"area",
                  "height":122.724,
                  "id":39,
                  "name":"AdminOffice4",
@@ -1274,23 +1230,6 @@
                  "width":94.6837,
                  "x":1840.36386151985,
                  "y":2055.05265089099
-                }, 
-                {
-                 "class":"area",
-                 "height":39.9329126327007,
-                 "id":42,
-                 "name":"Desk-007",
-                 "properties":[
-                        {
-                         "name":"collidableArea",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":91.265404239251,
-                 "x":1524.7352681967,
-                 "y":1800.29813833848
                 }, 
                 {
                  "class":"area",
@@ -1682,28 +1621,6 @@
                 }, 
                 {
                  "class":"area",
-                 "height":18.5815942252714,
-                 "id":76,
-                 "name":"Wall",
-                 "properties":[
-                        {
-                         "name":"collidableArea",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":329.504,
-                 "x":1345.73603626015,
-                 "y":1744.44344634439
-                }, 
-                {
-                 "class":"area",
                  "height":30.0167,
                  "id":77,
                  "name":"Wall",
@@ -1836,50 +1753,6 @@
                 }, 
                 {
                  "class":"area",
-                 "height":17.6286687440444,
-                 "id":83,
-                 "name":"Wall",
-                 "properties":[
-                        {
-                         "name":"collidableArea",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":119.658490375453,
-                 "x":1354.6954685886,
-                 "y":1881.45709500555
-                }, 
-                {
-                 "class":"area",
-                 "height":16.6757432628168,
-                 "id":84,
-                 "name":"Wall",
-                 "properties":[
-                        {
-                         "name":"collidableArea",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":138.717,
-                 "x":1547.59100985559,
-                 "y":1879.45009552833
-                }, 
-                {
-                 "class":"area",
                  "height":30.0167,
                  "id":85,
                  "name":"Wall",
@@ -1899,28 +1772,6 @@
                  "width":138.717,
                  "x":1804.78506487825,
                  "y":1871.78410283019
-                }, 
-                {
-                 "class":"area",
-                 "height":145.964839559397,
-                 "id":86,
-                 "name":"Wall-008",
-                 "properties":[
-                        {
-                         "name":"collidableArea",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":17.7593471566088,
-                 "x":1338.27746756007,
-                 "y":1747.40337130284
                 }, 
                 {
                  "class":"area",
@@ -1987,28 +1838,6 @@
                  "width":17.7593687440441,
                  "x":1663.80531892329,
                  "y":1998.79992010119
-                }, 
-                {
-                 "class":"area",
-                 "height":142.802816064088,
-                 "id":90,
-                 "name":"Wall-004",
-                 "properties":[
-                        {
-                         "name":"collidableArea",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":19.6652197064991,
-                 "x":1655.63358365131,
-                 "y":1743.71401307052
                 }, 
                 {
                  "class":"area",
@@ -4694,12 +4523,39 @@
                         }]
                 }, 
                 {
-                 "id":873,
+                 "id":835,
                  "properties":[
                         {
                          "name":"collides",
                          "type":"bool",
                          "value":true
+                        }]
+                }, 
+                {
+                 "id":836,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":837,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":873,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":false
                         }]
                 }],
          "tilewidth":32
@@ -5230,6 +5086,42 @@
                         }]
                 }, 
                 {
+                 "id":1243,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":1244,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":1245,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":1246,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
                  "id":1392,
                  "properties":[
                         {
@@ -5380,6 +5272,78 @@
                          "name":"collides",
                          "type":"bool",
                          "value":false
+                        }]
+                }, 
+                {
+                 "id":1913,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":1989,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":1990,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":1991,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":1992,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":1993,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":2069,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":2147,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
                         }]
                 }],
          "tilewidth":32
