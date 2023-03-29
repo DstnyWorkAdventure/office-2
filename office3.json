@@ -16,7 +16,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -28,7 +28,7 @@
          "name":"Walls",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -40,7 +40,7 @@
          "name":"Floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -52,7 +52,7 @@
          "name":"aboveFloor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -64,7 +64,7 @@
          "name":"furniture",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -76,7 +76,7 @@
          "name":"aboveFuniture",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
@@ -493,6 +493,66 @@
                  "width":32,
                  "x":2327.7631359305,
                  "y":1840.40993647392
+                }, 
+                {
+                 "gid":11793,
+                 "height":32,
+                 "id":267,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":2333.84750606374,
+                 "y":1729.69563651209
+                }, 
+                {
+                 "gid":11793,
+                 "height":32,
+                 "id":268,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":2338.65046468625,
+                 "y":1781.32744170409
+                }, 
+                {
+                 "gid":27669,
+                 "height":19.2652825150135,
+                 "id":269,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":19.2652825150135,
+                 "x":2340.42951905919,
+                 "y":1730.40920317014
+                }, 
+                {
+                 "gid":27701,
+                 "height":19.2652825150135,
+                 "id":270,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":19.2652825150135,
+                 "x":2339.9957830212,
+                 "y":1749.78274620023
+                }, 
+                {
+                 "gid":27733,
+                 "height":19.2652825150135,
+                 "id":271,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":19.2652825150135,
+                 "x":2339.85120434187,
+                 "y":1769.44544658899
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -733,7 +793,7 @@
                  "visible":true,
                  "width":181.330666666667,
                  "x":2181.10439598424,
-                 "y":1703.1025930868
+                 "y":1703.82303688018
                 }, 
                 {
                  "height":258.976666666667,
@@ -821,7 +881,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -832,13 +892,13 @@
          "name":"aboveFloorLayer",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":100,
          "x":0,
          "y":0
         }],
  "nextlayerid":24,
- "nextobjectid":267,
+ "nextobjectid":272,
  "orientation":"orthogonal",
  "properties":[
         {
