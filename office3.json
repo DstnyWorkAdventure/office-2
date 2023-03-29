@@ -4173,8 +4173,14 @@
          "tilewidth":32
         }, 
         {
+         "columns":0,
          "firstgid":28435,
-         "source":"stuff-1.tsx"
+         "margin":0,
+         "name":"stuff-1",
+         "spacing":0,
+         "tilecount":0,
+         "tileheight":32,
+         "tilewidth":32
         }, 
         {
          "columns":4,
@@ -4190,8 +4196,14 @@
          "tilewidth":32
         }, 
         {
+         "columns":0,
          "firstgid":28451,
-         "source":"Floral Carpet.tsx"
+         "margin":0,
+         "name":"Floral Carpet",
+         "spacing":0,
+         "tilecount":0,
+         "tileheight":32,
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
